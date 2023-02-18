@@ -1,1 +1,7 @@
 # Movies-ETL
+
+## Summary
+
+We learned how to use the Extract, Transform, Load (ETL) process to create data pipelines. A data pipeline moves data from a source to a destination, and the ETL process creates data pipelines that also transform the data along the way. Analysis is impossible without access to good data, so creating data pipelines is often the first step before any analysis can be performed. Therefore, understanding ETL is an essential skill for data analysis!
+
+A certain large online retailer would like to develop an algorithm that predicts which low budget movies being released would become popular so they can buy the streaming rights at a bargain. To inspire the team, have some fun, and connect with the local coding community, the retailer has decided to sponsor a hackathon, providing a clean dataset of movie data and asking participants to predict the popular pictures. We've been tasked to create the datasets for the hackathon, there are two data sources: a scrape of Wikipedia for all movies released since 1990, and rating data from the Movie Land's website. We'll need to extract the data from the two sources, transform it into one clean data set, and finally load that data into a SQL table.
